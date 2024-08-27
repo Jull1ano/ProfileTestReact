@@ -1,5 +1,5 @@
 import './style.css'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Profile } from './Pages/Profile'
 import { Edit } from './Pages/Edit'
 import { Layout } from './Layout'
@@ -7,14 +7,14 @@ import { Layout } from './Layout'
 function App() {
   
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Profile/>} />
           <Route path="/Edit" element={<Edit/>}/>
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
