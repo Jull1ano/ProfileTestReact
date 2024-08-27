@@ -175,13 +175,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url("../public/icon-arrow-right.svg") center center no-repeat;
+	background: url("/icon-arrow-right.svg") center center no-repeat;
 	background-size: 24px 24px;
 	width: 24px;
 	height: 24px;
 }
 a.back:hover {
-	background: url("../public/icon-arrow-right-h.svg") center center no-repeat;
+	background: url("/icon-arrow-right-h.svg") center center no-repeat;
 }
 
 .v-spacer {
@@ -230,7 +230,7 @@ a.back:hover {
 }
 .updates::before {
 	content: "";
-	background: url("../public/blue-disc-9.svg") center center no-repeat;
+	background: url("/blue-disc-9.svg") center center no-repeat;
 	background-size: cover;
 	width: 9px;
 	height: 9px;
@@ -433,7 +433,7 @@ ul.header-user-details li:nth-child(11) {
 ul.header-user-details li:nth-child(5) .bottom-info::after {
 	display: flex;
 	content: "";
-	background: url("../public/house-12.svg") center center no-repeat;
+	background: url("/house-12.svg") center center no-repeat;
 	background-size: cover;
 	width: 14px;
 	height: 14px;
@@ -441,7 +441,7 @@ ul.header-user-details li:nth-child(5) .bottom-info::after {
 ul.header-user-details li:nth-child(9) .bottom-info::before {
 	display: flex;
 	content: "";
-	background: url("../public/red-disc.svg") center center no-repeat;
+	background: url("/red-disc.svg") center center no-repeat;
 	background-size: cover;
 	width: 7px;
 	min-width: 7px;
@@ -576,7 +576,7 @@ ul.header-user-details li:nth-child(9) .bottom-info::before {
 .card4:nth-child(4) .top-card::before {
 	display: flex;
 	content: "";
-	background: url("../public/blue-disc.svg") center center no-repeat;
+	background: url("/blue-disc.svg") center center no-repeat;
 	background-size: cover;
 	width: 7px;
 	height: 7px;
@@ -663,7 +663,7 @@ ul.more-info > li:last-child {
 
 .more-info-texts header::after {
 	content: "";
-	background: url("../public/blue-disc.svg") center center no-repeat;
+	background: url("/blue-disc.svg") center center no-repeat;
 	background-size: cover;
 	width: 7px;
 	height: 7px;

@@ -1,4 +1,4 @@
-
+import settings from "/settings.svg"
 
 export function HeaderUserDetails() {
 
@@ -36,7 +36,7 @@ export function HeaderUserDetails() {
             </li>
             <li class="card-top">
                 <a href="#" class="settings">
-                    <img src="../public/settings.svg" alt="" />
+                    <img src={settings} alt="" />
                 </a>
             </li>
         </ul>

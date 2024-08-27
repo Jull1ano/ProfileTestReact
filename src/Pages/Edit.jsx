@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import dotsEdit from "/dots-edit.svg"
 import save from "/save.svg"
+import usersquare from '/user-square.svg'
 
 export function Edit() {
 
@@ -9,7 +10,7 @@ export function Edit() {
             <form class="profile" method="get" action="/">
                 <header class="profile-header">
                     <div class="profile-header-left">
-                        <img src="../public/user-square.svg" alt="User icon" />Edit Profile
+                        <img src={usersquare} alt="User icon" title="icon" />Edit Profile
                     </div>
                     <div class="profile-header-right">
                         <button type="reset" class="cancel" title="Cancel" id="reset" name="reset">
@@ -17,7 +18,7 @@ export function Edit() {
                         </button>
                         <Link to="/" className="save" title="Save" id="submit">
                             <img src={save} alt="Save" title="Save" />Save
-                        </Link>                      
+                        </Link>
 
                         <Link to="/" className="more-ico">
                             <img src={dotsEdit} alt="More Options" title="More Options" />

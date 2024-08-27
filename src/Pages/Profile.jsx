@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import dotsEdit from "/dots-edit.svg"
-import save from "/save.svg"
 import edit from "/edit.svg"
+import usersquare from '/user-square.svg'
 
 export function Profile() {
 
@@ -10,13 +10,13 @@ export function Profile() {
             <section class="profile">
                 <header class="profile-header">
                     <div class="profile-header-left">
-                        <img src="../public/user-square.svg" alt="User icon" />Profile
+                        <img src={usersquare} alt="User icon" title="icon" />Profile
                     </div>
-                    <div class="profile-header-right">                       
+                    <div class="profile-header-right">
                         <Link to="/Edit" className="edit-ico" title="Save" id="submit">
                             <img src={edit} alt="Save" title="Save" />
-                        </Link>  
-                        <Link to="/" className="more-ico">
+                        </Link>
+                        <Link to="/Edit" className="more-ico">
                             <img src={dotsEdit} alt="More Options" title="More Options" />
                         </Link>
                     </div>

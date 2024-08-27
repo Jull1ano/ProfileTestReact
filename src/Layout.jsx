@@ -10,14 +10,14 @@ export function Layout() {
         <>
             <header className="header container">
                 <ul className="header-site-controls">
-                    <li className="header-user-info"><HeaderUserInfo/></li>
-                    <li className="header-user-controls"><HeaderUserControls/></li>
+                    <li className="header-user-info"><HeaderUserInfo /></li>
+                    <li className="header-user-controls"><HeaderUserControls /></li>
                 </ul>
-                <HeaderUserDetails/>
+                <HeaderUserDetails />
             </header>
             <main className="main container">
                 <Outlet />
-                <MoreInfo/>
+                <MoreInfo />
             </main>
         </>
     )

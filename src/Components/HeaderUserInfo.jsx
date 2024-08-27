@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import user from "../../public/user.svg"
+import { Link } from "react-router-dom"
+import user from "/user.svg"
 
 
 export function HeaderUserInfo() {
@@ -8,9 +8,7 @@ export function HeaderUserInfo() {
         <>
             <ul>
                 <li>
-                    <a href="" className="back">
-
-                    </a>
+                    <Link to="/" className="back"></Link>
                 </li>
                 <li><div className="v-spacer"></div></li>
                 <li>
@@ -19,7 +17,9 @@ export function HeaderUserInfo() {
                         <span>Alia Bhatt</span>
                     </div>
                 </li>
-                <li><div className="updates">4 updates</div></li>
+                <li>
+                    <div className="updates">4 updates</div>
+                </li>
             </ul>
         </>
     )
